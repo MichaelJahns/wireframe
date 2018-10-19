@@ -1,3 +1,7 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body
 {
     margin: 0px;
@@ -6,36 +10,32 @@ body
 /* Nav Bar */
 header
 {
-    width: 100%;
-    background-color: pink;
-    height:90px; 
-    outline: purple 2px dotted;
-}
-header > img
-{
-    height: 70px;
-    width: 200px;
-    margin-top: 10px;
+    background-color:#444;
+    height: 100px;
 }
 nav
 {
-    position: absolute;
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: 2px blue dotted;
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    margin: 0px auto;
+}
+nav img
+{
+    margin-top: 15px;
+    float: left;
+    margin-right: 30px;
 }
 nav li
 {
     display: inline-block;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;
-    top: 10px;
+    line-height: 90px;
+    color: white;
+    vertical-align: center;
+    margin-right: 100px;
+}
+nav a
+{
+    text-decoration: none;
+    color: inherit;
 }
 /* Body */
 main
@@ -102,6 +102,6 @@ li:last-child
 footer
 {
     width: 100%;
-    background-color: black;
+    background-color: #444;
     height:90px; 
 }
